@@ -1,0 +1,28 @@
+1. Install venv
+2. Activate venv
+3. Install pip
+4. Install autopep8
+5. Install django
+5.1 Create project and name in "Shop"
+6. Add app (python3 manage.py startapp app)
+7. Add app to installed_app into settings.py
+8. Create Model of Product , Customer , Cart
+    -> create a couple of instance of model with command:
+        Product.objects.create()
+9. Create templates : product.html , customer.html , cart.html
+
+10. -> Write in a text document what is : URLConfig , Model , View , Template
+11. -> Build logic schema to web-blog :
+                        - models : post , tag ,
+                        - view : homepage , page , cart_page
+                        - templates : here basic html pages
+
+
+
+Groups : [
+    1. Denis + Ira
+    2. Max + Bogdan
+    3. Andrei + Galenko Artem
+    4. AndreyPHP + Elena
+    5. Zaxar + Uglik
+]
