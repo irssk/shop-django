@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+li{
+    list-style-type: none;
+}
+
+#app{
+    font-family: var(--ff-sex);
+
+}
+
+.header__ul{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--body-bg-kirr);
+    font-size: var(--fs-l);
+
+}
+.header__wrapper{
+    
+    width: 1200px;
+}
