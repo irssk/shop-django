@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий
 ```
-https://github.com/dagedarr/StoreProject.git
+https://github.com/irssk/shop-django.git
 
 cd OnlineStore
 ```
