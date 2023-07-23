@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "sex";
+    src: url("../fonts/Sex.otf")
+  }
+
+
+:root {
+    /* PADDING */
+    --padding-xxxl : 128px;
+    --padding-xxl : 60px;
+    --padding-xl : 50px;
+    --padding-l : 40px;
+    --padding-m : 30px;
+    --padding-s : 20px;
+    --padding-xs : 10px; 
+
+    /* MARGIN */
+    --margin-xxxl : 128px;
+    --margin-xxl : 60px;
+    --margin-xl : 50px;
+    --margin-l : 40px;
+    --margin-m : 30px;
+    --margin-s : 20px;
+    --margin-xs : 10px; 
+    --margin-xxs : 3px;
+
+    /* FONT_SIZE */
+    --fs-xxl: 80px;
+    --fs-xl : 70px;
+    --fs-l : 42px;
+    --fs-m : 20px;
+    --fs-s : 18px;
+    --fs-xs : 16px;
+    --fs-xxs : 5px;
+
+    /* FONT_FAMILY */
+    --ff-sex : 'sex';
+
+    /* LINE-HEIGHT */
+    --line-h-xxl: 20px;
+    --line-h-xl: 10px;
+
+    /* TEXT_COLOR */
+    --primary-text-color : rgb(242, 251, 255);
+    --secondary-text-color : rgba(217, 217, 217, 1) ;
+    --third-text-color : rgba(56, 56, 56, 1) ;
+    
+    /* BACKGROUND */
+    --primary-bg :  #101010;
+    --secondary-bg : rgba(223, 223, 223, 1);
+    --thrid-bg : rgba(56, 56, 56, 1);
+    --body-bg-kirr : linear-gradient(to right, darkmagenta 1%, var(--primary-bg)  7% 93%,  darkmagenta 99%);
+    --body-bg-alt : linear-gradient(to left, black 3%, var(--primary-bg) 10% 90%,  black 97%);
+}

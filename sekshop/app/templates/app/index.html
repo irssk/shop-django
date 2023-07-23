@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SekShop</title>
+
+    {% load static %}
+    <link 
+        rel="shortcut icon" 
+        type="image/png" 
+        href="{% static 'images/favicon.png' %}"
+        >
+
+    <link rel="stylesheet" href="{% static 'styles/app/index.css' %}">
+
+    <link rel="stylesheet" href="{% static 'styles/variables.css' %}">
+
+</head>
+
+
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="header__wrapper">
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li class="header_nav__li">
+                            <a href="product">
+                                Product
+                            </a>
+                        </li>
+
+                        <li class="header_nav__li">
+                            <a href="">
+                                User
+                            </a>
+                        </li>
+                        
+                        <li class="header_nav__li">
+                            <a href="">
+                                Cart
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div>
+                <h2>HELLO IN THE BEST SEX SHOP</h2>
+            </div>
+        </main>
+    </div>  
+</body>
+</html>
